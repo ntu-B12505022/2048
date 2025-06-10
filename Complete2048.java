@@ -259,7 +259,7 @@ class Game2048Panel extends JPanel {
                     timer.stop();
                     gameOver = true;
                     JOptionPane.showMessageDialog(Game2048Panel.this, 
-                        "时间到！游戏结束！最终得分：" + score);
+                        "時間到！遊戲結束！最終得分：" + score);
                 }
             }
         });
